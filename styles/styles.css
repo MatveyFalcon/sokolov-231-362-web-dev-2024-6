@@ -1,0 +1,58 @@
+body {
+  margin: 0;
+  font-family: "Commissioner", sans-serif;
+  background-color: white;
+}
+
+.container {
+  max-width: 1160px;
+  margin: 0 auto;
+}
+
+h1 {
+  color: #4a90e2;
+  text-align: center;
+}
+
+/* Оформление задач */
+.task {
+  margin-bottom: 30px;
+}
+
+h3 {
+  color: #333;
+  text-align: center;
+}
+
+/* Стили для ввода */
+input {
+  border: 2px solid #ddd;
+  border-radius: 5px;
+  padding: 10px 10px;
+  width: 80%;
+  max-width: 300px;
+  display: block;
+  margin: 10px auto; /* Центрирование */
+}
+
+/* Стили для кнопок */
+button {
+  background-color: #4a90e2;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  cursor: pointer;
+  display: block;
+  margin: 10px auto; /* Центрирование */
+}
+
+button:hover {
+  background-color: #357ab9;
+}
+
+/* Результаты */
+p {
+  color: #555;
+  text-align: center;
+}
